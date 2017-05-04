@@ -1,0 +1,282 @@
+@import url("https://fonts.google.com/specimen/Lato");
+/* ==========================================================================
+     Colors:
+        Base Grey: #5D7E7F;
+        Light Blue: #8BBDBF;
+        Lighter Blue: #A7E3E5;
+        Lightest Blue: #BAFCFF;
+        Almost Black: #2E3F40;
+
+        Compliment color pinkish: #ecd4c5
+
+
+
+   ========================================================================== */
+/* ==========================================================================
+      Header Style
+========================================================================== */
+a {
+  color: #f9f0eb;
+  text-decoration: none; }
+
+.head {
+  background-color: #1f2b2b;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.nav-list {
+  border-right: 1px solid;
+  color: #f9f0eb;
+  display: inline-block;
+  font-weight: bold;
+  padding: 15px 20px 15px 15px;
+  text-align: center; }
+
+img.site-logo {
+  height: 40px;
+  padding: 7px;
+  width: 40px; }
+
+.title {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center; }
+
+.title-text {
+  color: white;
+  font-family: 'Pacifico', 'cursive';
+  font-weight: lighter;
+  padding: 3px 0 0;
+  position: relative;
+  z-index: 1;
+  margin: 0; }
+
+/* ==========================================================================
+      Main Content Style
+========================================================================== */
+.aboutme-li {
+  padding: 25px; }
+
+body {
+  background-color: #6c9294; }
+
+.books-food-nav {
+  border-radius: 3%;
+  background-color: #605a71; }
+
+.center-landing {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+h2, h3 {
+  padding-left: 15px; }
+
+html {
+  color: #222;
+  font-family: Lato, "Times New Roman", Times, serif;
+  font-size: 1em;
+  line-height: 1.4; }
+
+.jumbotron-li-item {
+  padding: 5px 10px 10px 5px; }
+
+.landing-pic {
+  margin: 0 auto;
+  max-height: 100vh;
+  max-width: 100%; }
+
+.main-about-me {
+  background-color: #8bdadd;
+  padding: 35px;
+  max-width: 75vw;
+  margin: 0 auto; }
+
+.main-content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #8bdadd;
+  padding: 35px;
+  max-width: 75vw;
+  margin: 0 auto; }
+
+.main-left {
+  padding-right: 25px; }
+
+.main-right {
+  padding-left: 25px; }
+
+.my-hobby-content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 65vw;
+  -ms-flex-preferred-size: 65vw;
+  flex-basis: 65vw;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap; }
+
+p {
+  font-size: 1.5em; }
+
+.stand-out {
+  font-style: italic;
+  font-weight: 200; }
+
+.what-i-do-pics {
+  border-radius: 50%;
+  height: 150px;
+  padding: 25px 10px 25px 25px;
+  width: 150px; }
+
+/* ==========================================================================
+      Footer Style
+========================================================================== */
+footer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #2E3F40;
+  color: #ecd4c5; }
+
+.footer-bar {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #BAFCFF;
+  font-weight: bolder;
+  padding: 35px; }
+
+.footer-left {
+  padding: 35px; }
+
+.footer-middle {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  letter-spacing: 4px;
+  padding: 35px; }
+
+.footer-right {
+  padding: 35px; }
+
+.Epictetus {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px; }
+
+.mission {
+  line-height: 60px; }
+
+/* ==========================================================================
+      Remove small bit of white space at top of page
+========================================================================== */
+* {
+  margin: 0; }
+
+html {
+  margin: 0; }
+
+body {
+  margin: 0; }
+
+/* ==========================================================================
+      Site-Container Styles
+========================================================================== */
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle; }
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical; }
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px; }
+
+/* ==========================================================================
+   Utility classes
+
+   ========================================================================== */
+.utility {
+  border: 2px solid black; }
+
+a {
+  color: #e9d7e9; }
+
+a:hover {
+  color: #eca444; }
+
+a:active {
+  color: #eca444; }
+
+/* ==========================================================================
+           Media Queries
+   ========================================================================== */
+/* Style adjustments for viewports that meet the condition */
+@media only screen and (max-width: 799px) {
+  .nav-list {
+    display: block; }
+  .pDate {
+    font-size: 10px; }
+  p.mission {
+    font-size: 12px;
+    line-height: normal; }
+  h1 {
+    font-size: 14px;
+    line-height: normal;
+    margin: 5px; }
+  .what-i-do-pics {
+    height: 100px;
+    width: 100px; } }

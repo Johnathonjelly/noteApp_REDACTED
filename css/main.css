@@ -1,0 +1,47 @@
+.text-center {
+  text-align: center;
+}
+.loginForm {
+  display: block;
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+.noteApp {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+form {
+  display: inline;
+}
+
+#noteSubmit {
+  min-width: 550px;
+}
+
+button:hover {
+  background-color: #3777;
+}
+
+.register {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+fieldset {
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+body {
+  background-color: honeydew;
+}
+
+td {
+  padding: 5px;
+}
+table, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
